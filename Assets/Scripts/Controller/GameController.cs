@@ -4,12 +4,13 @@ using System.Collections;
 
 public partial class GameController : SingletonBehaviour<GameController> 
 {
+	[SerializeField] Field field;
+
 	/**
 	 * Application Initialize
 	 */
-	public override void SingleAwake()
-	{
-		//Util.InstantiateTo(gameObject, adjustPrefab);
+	public override void SingleAwake(){
+
 	}
 }
 
