@@ -14,6 +14,7 @@ GameObject:
   - 143: {fileID: 14337486}
   - 82: {fileID: 8208684}
   - 114: {fileID: 11491994}
+  - 114: {fileID: 11412724}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -211,6 +212,19 @@ Behaviour:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 137958}
   m_Enabled: 1
+--- !u!114 &11412724
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dace4a9f9b3674bae84ca222ec2109bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  beam:
+    _gameObject: {fileID: 136886, guid: 3aa9f7ce85aa246ccb088eba3af87dd5, type: 2}
 --- !u!114 &11491994
 MonoBehaviour:
   m_ObjectHideFlags: 1
