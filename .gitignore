@@ -50,3 +50,5 @@ current_platform.txt
 Library_iOS
 Library_Android
 
+# AssetStore
+Assets/Resources/MarsEnvironment*
