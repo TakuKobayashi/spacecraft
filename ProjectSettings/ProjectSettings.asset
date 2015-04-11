@@ -197,7 +197,7 @@ PlayerSettings:
   ps4ApplicationParam2: 0
   ps4ApplicationParam3: 0
   ps4ApplicationParam4: 0
-  ps4Passcode: GO4b2YL63SjcbR7XhCocrNrgRv8kuRA9
+  ps4Passcode: kxsJ3fQSeZs5mXyCdIHIzo24gpBdSWwD
   ps4pnSessions: 1
   ps4pnPresence: 1
   ps4pnFriends: 1
@@ -388,9 +388,7 @@ PlayerSettings:
   iOS::ScriptingBackend: 0
   boolPropertyNames:
   - WebGL::dataCaching
-  - XboxOne::enus
   WebGL::dataCaching: 0
-  XboxOne::enus: 1
   stringPropertyNames:
   - WebGL::emscriptenArgs
   - WebGL::template
