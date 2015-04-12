@@ -40,7 +40,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dustPrefab:
-    _gameObject: {fileID: 100000, guid: 1f7aa4d40edff6e48b549003cad031e1, type: 2}
+    _gameObject: {fileID: 100000, guid: 79bc143de01dd41aa938744cb2546718, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
