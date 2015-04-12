@@ -145,7 +145,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 178444445}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 190130104}
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -180,21 +180,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5af99911964c846fd8f97e7eb99b0efa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!115 &190130104
-MonoScript:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  serializedVersion: 4
-  m_Script: 
-  m_DefaultReferences: {}
-  m_Icon: {fileID: 0}
-  m_ExecutionOrder: 0
-  m_ClassName: Text
-  m_Namespace: UnityEngine.UI
-  m_AssemblyName: UnityEngine.UI.dll
-  m_IsEditorScript: 0
 --- !u!115 &204907096
 MonoScript:
   m_ObjectHideFlags: 0
@@ -296,7 +281,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 743379660}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1302864549}
+  m_Script: {fileID: 1997211142, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_AllowActivationOnStandalone: 0
@@ -325,7 +310,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 743379660}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1015720199}
+  m_Script: {fileID: -619905303, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_FirstSelected: {fileID: 0}
@@ -385,21 +370,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 24a75373a9bde48598ff8de3901b02fe, type: 2}
   m_IsPrefabParent: 0
---- !u!115 &1015720199
-MonoScript:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  serializedVersion: 4
-  m_Script: 
-  m_DefaultReferences: {}
-  m_Icon: {fileID: 0}
-  m_ExecutionOrder: 0
-  m_ClassName: EventSystem
-  m_Namespace: UnityEngine.EventSystems
-  m_AssemblyName: UnityEngine.UI.dll
-  m_IsEditorScript: 0
 --- !u!1 &1055839020
 GameObject:
   m_ObjectHideFlags: 0
@@ -519,21 +489,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ee77b9614f2244a8b1d437e98a9bfed, type: 2}
   m_IsPrefabParent: 0
---- !u!115 &1302864549
-MonoScript:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 
-  serializedVersion: 4
-  m_Script: 
-  m_DefaultReferences: {}
-  m_Icon: {fileID: 0}
-  m_ExecutionOrder: 0
-  m_ClassName: TouchInputModule
-  m_Namespace: UnityEngine.EventSystems
-  m_AssemblyName: UnityEngine.UI.dll
-  m_IsEditorScript: 0
 --- !u!115 &1583832841
 MonoScript:
   m_ObjectHideFlags: 0
