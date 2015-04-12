@@ -7,6 +7,7 @@ public class Player : MonoBehaviour {
 	GameObject dustStorm;
 	GameObject beamObject;
 	[SerializeField] Prefab stonePrefab;
+	public int stoneStockSize = 10;
 
 	void Start(){
 		beamObject = Util.InstantiateTo (gameObject, beamPrefab);
@@ -26,8 +27,11 @@ public class Player : MonoBehaviour {
 		beamObject.transform.position = this.transform.position;
 		beamObject.transform.position = this.transform.position;
 		if(Input.GetMouseButtonDown(1)) {
-			Vector3 forward = transform.forward;
-			GameObject stone = (GameObject)Instantiate(stonePrefab, this.transform.position + (forward * 5), this.transform.rotation);
+			if(stoneStockSize > 0) {
+				Vector3 forward = transform.forward;
+				GameObject stone = (GameObject)Instantiate(stonePrefab, this.transform.position + (forward * 5), this.transform.rotation);
+				stoneStockSize -= 1;
+			}
 		}
 	}
 }
