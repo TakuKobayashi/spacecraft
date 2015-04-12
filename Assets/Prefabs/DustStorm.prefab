@@ -39,6 +39,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e82d344f733df4b6f88f66cfe2bd8f72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dustPrefab:
+    _gameObject: {fileID: 100000, guid: 1f7aa4d40edff6e48b549003cad031e1, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

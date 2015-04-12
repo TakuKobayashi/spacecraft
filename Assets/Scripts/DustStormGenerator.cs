@@ -4,19 +4,20 @@ using System.Collections;
 public class DustStormGenerator : MonoBehaviour {
 	
 	private bool dustVisible = false;
-	private GameObject dustPrefab;
+	[SerializeField] private Prefab dustPrefab;
 	private GameObject dustObj;
 	// Use this for initialization
 	void Start () {
-		dustPrefab = (GameObject)Resources.Load("ParticleSystems/Prefabs/DustStorm");
-		dustObj = (GameObject)Instantiate(dustPrefab, transform.position, transform.rotation);
+		dustObj = Util.InstantiateTo (gameObject, dustPrefab);
+		dustObj.transform.position = this.transform.position;
+		dustObj.transform.rotation = this.transform.rotation;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		moveDustStorm();
-		
 	}
+
 	void OnCollisionEnter(Collision collision) {
 		showDustStorm();
 	}
