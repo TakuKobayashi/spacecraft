@@ -8,6 +8,7 @@ public class Player : MonoBehaviour {
 	GameObject beamObject;
 	[SerializeField] Prefab stonePrefab;
 	public int stoneStockSize = 10;
+	bool isBeamHitting = false;
 
 	void Start(){
 		beamObject = Util.InstantiateTo (gameObject, beamPrefab);
@@ -17,9 +18,12 @@ public class Player : MonoBehaviour {
 				dustStorm = Util.InstantiateTo(this.gameObject, dustStormPrefab);
 				dustStorm.transform.position = hit.point;
 			}
+			
+			isBeamHitting = true;
 		};
 		beam.OnBeamFinish = () => {
 			if(dustStorm != null) Destroy(dustStorm);
+			isBeamHitting = false;
 		};
 	}
 	
@@ -32,6 +36,9 @@ public class Player : MonoBehaviour {
 				GameObject stone = (GameObject)Instantiate(stonePrefab, this.transform.position + (forward * 5), this.transform.rotation);
 				stoneStockSize -= 1;
 			}
+		}
+		if(isBeamHitting) {
+			stoneStockSize += 1;
 		}
 	}
 }
