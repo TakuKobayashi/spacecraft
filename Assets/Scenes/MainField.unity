@@ -232,6 +232,18 @@ Prefab:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 11412724, guid: 9ee77b9614f2244a8b1d437e98a9bfed, type: 2}
+      propertyPath: storn._gameObject
+      value: 
+      objectReference: {fileID: 100002, guid: ac6f60f12976bea47a4b5158d3c0283b, type: 3}
+    - target: {fileID: 11412724, guid: 9ee77b9614f2244a8b1d437e98a9bfed, type: 2}
+      propertyPath: stone._gameObject
+      value: 
+      objectReference: {fileID: 100002, guid: ac6f60f12976bea47a4b5158d3c0283b, type: 3}
+    - target: {fileID: 11412724, guid: 9ee77b9614f2244a8b1d437e98a9bfed, type: 2}
+      propertyPath: stonePrefab._gameObject
+      value: 
+      objectReference: {fileID: 141256, guid: 1d0a0cc2e026f4f9fa6dab264fb5433d, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ee77b9614f2244a8b1d437e98a9bfed, type: 2}
   m_IsPrefabParent: 0
