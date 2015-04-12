@@ -11,19 +11,7 @@ public class DustStormGenerator : MonoBehaviour {
 		dustObj = Util.InstantiateTo (gameObject, dustPrefab);
 		dustObj.transform.position = this.transform.position;
 		dustObj.transform.rotation = this.transform.rotation;
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		moveDustStorm();
-	}
-
-	void OnCollisionEnter(Collision collision) {
-		showDustStorm();
-	}
-	
-	void OnCollisionExit(Collision collisionInfo) {
-		hideDustStorm();
+		showDustStorm ();
 	}
 	
 	public void showDustStorm() {
