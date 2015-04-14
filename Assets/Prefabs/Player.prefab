@@ -159,7 +159,7 @@ AudioSource:
   rolloffMode: 0
   BypassEffects: 0
   BypassListenerEffects: 0
-  BypassReverbZones: 0
+  BypassReverbZones: 1
   rolloffCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -227,6 +227,10 @@ MonoBehaviour:
     _gameObject: {fileID: 136886, guid: 3aa9f7ce85aa246ccb088eba3af87dd5, type: 2}
   dustStormPrefab:
     _gameObject: {fileID: 195842, guid: 559fe968e393e4a3ba8da855ee79b1f6, type: 2}
+  field: {fileID: 0}
+  stonePrefab:
+    _gameObject: {fileID: 141256, guid: 1d0a0cc2e026f4f9fa6dab264fb5433d, type: 2}
+  stoneStockSize: 10
 --- !u!114 &11491994
 MonoBehaviour:
   m_ObjectHideFlags: 1
